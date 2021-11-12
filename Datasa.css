@@ -181,4 +181,51 @@ body{
     opacity: 0.8;
     color: white;
  }
+
+#titulo{
+    padding-top: 20px;
+    font-family: helvetica;
+    text-align: center;
+}
+#titulotasar{
+    margin: 0 auto;
+}
+#tasar{
+    margin: 0 auto;
+    width: 300px;
+    
+    padding: 1em;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+#tasar ul{
+    list-style: none;
+    padding: 15px 15px 15px 15px;  
+    margin: 0;
+}
+#tasar label {
+    width: 90px;
+    padding-right: 20px;
+    font: 1.2em arial, helvetica;
+}
+#tasar input{
+    height: 30px;
+    width:250px;
+}
+#tasar button{
+     padding: 10px 10px;
+     width: 300px;
+     cursor: pointer;
+     color: #fff;
+     font: 1em arial, helvetica;
+     background-color: black;
+     margin-top: 15px;
+} 
+#imgtasar{
+    width: 200px;
+}
+
  
