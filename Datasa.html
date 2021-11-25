@@ -6,36 +6,48 @@
 <body>
     <ul class="menu">
         <img id="logo" src="datasa.png">
-        <li><a href="#">Principal</a></li>
-        <li><a href="#">¿Como funciona?</a></li>
+        <li><a href="#Principal">Principal</a></li>
+        <li><a href="#ComoFunciona">¿Como funciona?</a></li>
         <li><a href="#">Nosotros</a></li>
-        <li><a href="#">Registrate</a></li>
-        <li><a href="#">Ingresa</a></li>
+        <li><a href="#Registrate">Registrate</a></li>
+        <li><a href="#signup">Contáctanos</a></li>
     </ul>
-    
-    <article class="pantalla">
+
+    <article id="Principal">
         <h2 id="grande">Conoce los precios de <br/>cualquier tipo de <br/>propiedad.</h2>
         <p id="mediano">Mediante la Inteligencia Artificial y el Análisis de <br/>Datos, DATASA te ayuda a tasar todo tipo de inmueble.</p>
-        <div class="boton izquierdo">¿Como funciona?</div>
-        <div class="boton derecho">Registrate ahora</div>
+        <div class="boton izquierdo"><a href="#ComoFunciona">¿Como funciona?</a></div>
+        <div class="boton derecho"><a href="#Registrate">Registrate ahora</a></div>
     </article>
     <div class="sec2">
         <div id="text2">Con DATASA tienes la opción de calcular la tasación de cualquier propiedad con tan solo colocar sus caracteristicas como m2, ubicación, antiguedad, etc.</div>
         <img id="img2" src="edificio.jpg">
-        <div class="boton derecho">Tasar una propiedad</div>
+        <div class="boton medio"><a href="Tasar.html"> Tasar una propiedad</a></div>
     </div>
     <div class="sec3">
-        <div id="text3">Con DATASA tienes la opción de calcular la tasación de cualquier propiedad con tan solo colocar sus caracteristicas como m2, ubicación, antiguedad, etc.</div>
-        <img id="img3" src="edificio.jpg">
-        <div class="boton derecho">Conoce los precios de m²</div>    
+        <div id="text3">Con DATASA puedes conocer los precios por metro cuadrado de zonas, cuadras, urbanizaciones, etc.</div>
+        <img id="img3" src="edificio2.jpg">
+        <div class="boton medio">Conoce los precios de m²</div>
     </div>
-    
+    <div id="ComoFunciona">
+        <div id="text4">¿Cómo funciona?</div>
+        <div id="text5">Recopilamos información de más de 20 mil<br/>propiedades en venta.</div>
+        <div id="text6">DATASA hace uso de la <br/>Inteligencia Artificial y <br/>Análisis de datos.</div>
+        <img id="img4" src="bloques.png">
+        <div id="text7">Esta data alimenta nuestra base de datos, <br/>para así obtener información valiosa.</div>
+    </div>
+    <div id="Registrate">
+        <div id="text8">Regístrate en DATASA hoy mismo</div>
+        <div id="text9">¡La herramienta perfecta para tus operaciones<br/>inmobiliarias!</div>
+        <div class="boton nuevo">REGISTRATE AHORA</div>
+    </div>
+
     <form id="signup">
         <h1>Contáctate con nosotros</h1>
         <input type="text" placeholder="Nombres" required="">
-        <input type="text" placeholder="Corres" required="">
-        <input type="text" placeholder="Mensaje" required="">                  
-        <button type="submit">Enviar</button>    
+        <input type="text" placeholder="Correo" required="">
+        <input type="text" placeholder="Mensaje" required="">
+        <button type="submit">Enviar</button>
     </form>
 </body>
 </html>
